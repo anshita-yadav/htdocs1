@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    background:-webkit-linear-gradient(bottom, #ede5f1, #eecbe2);
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+.sub-container{
+    background-color: white;
+    height: 480px;
+    width: 60%;
+    margin: auto;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+}
