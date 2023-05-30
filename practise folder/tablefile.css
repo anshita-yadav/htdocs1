@@ -3,19 +3,41 @@
     margin: 0;
 }
 
-.main-container {
-    background:-webkit-linear-gradient(bottom, #ede5f1, #eecbe2);
+#maincontainer {
+    background:-webkit-linear-gradient(bottom, rgb(250, 137, 175), #eca8d4);
     height: 100vh;
     font-family: sans-serif;
+
     
 }
-.sub-container{
-    background-color: white;
-    height: 480px;
+
+#head-content{
+    color: rgb(230, 23, 92);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-size: 35px;
+}
+
+#maincontainer table,th,td{
     width: 60%;
+    height:70px;
+    background-color: rgb(250, 137, 175);
+    color: white;
     margin: auto;
 }
-.flex-content{
-    display: flex;
-    justify-content: space-between;
+
+#maincontainer td,
+#maincontainer th {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
+#maincontainer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(241, 155, 184);
+}
+
+
+

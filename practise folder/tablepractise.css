@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+#h {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #baf1dd;
+}
+
+#container td,
+#container th {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#container tr:nth-child(even) {
+    background-color: #b7f3dd;
+}
+
+#container tr:hover {
+    background-color: #e5faf2;
+}
+
+#container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bafde5;
+
+}
