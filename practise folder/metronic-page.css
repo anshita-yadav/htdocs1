@@ -2,8 +2,105 @@
     padding: 0;
     margin: 0;
 }
-.flex-content{
+
+.flex-content {
+    justify-content: right;
+    font-family: Inter, Helvetica, "sans-serif";
+    height: 100vh;
+}
+
+.row-content {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.left-content {
+    width: 40%;
+    background-color: #009ef7;
+
+}
+
+.right-content {
+    width: 60%;
+    background-color: #ffffffe3;
+    color: #181c32;
     flex-direction: column;
-    justify-content:right ;
+
+}
+
+.center-content {
+    text-align: center;
+}
+
+.one-content {
+    background-color: #50cd89;
+}
+
+.menu-content {
+    width: 10%;
+    height: 40px;
+    border: 1px dotted gainsboro;
+    border-radius: 10px;
+}
+
+.position-content {
+    position: relative;
+    top: 10px;
+}
+
+.col-white {
+    color: white;
+}
+
+.col-grey {
+
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.anchor-content {
+    color: #8df5bc;
+    text-decoration: none;
+}
+
+.icon-content {
+    width: 30%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.right-head-content {
+    margin: auto;
+}
+
+.box-content {
+    border: 1px dashed #a1a5b7;
+    width: 40%;
+    height: 150px;
+    padding-top: 15px;
+}
+
+.col-color {
+    color: #a1a5b7;
+}
+
+.col-page {
+    color: #009ef7;
+}
+
+.button-content {
+    background-color: #009ef7;
+    border-radius: 8px;
+    border: none;
+    width: 25%;
+    height: 60px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.margin-content {
+    margin-left: 25px;
+}
+
+.bg-content {
+    background-color: #009ef71c;
 }
