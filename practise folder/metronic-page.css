@@ -32,22 +32,6 @@
     text-align: center;
 }
 
-.one-content {
-    background-color: #50cd89;
-}
-
-.menu-content {
-    width: 10%;
-    height: 40px;
-    border: 1px dotted gainsboro;
-    border-radius: 10px;
-}
-
-.position-content {
-    position: relative;
-    top: 10px;
-}
-
 .col-white {
     color: white;
 }
@@ -103,4 +87,25 @@
 
 .bg-content {
     background-color: #009ef71c;
+}
+
+.space-content{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.box-container {
+    width: 210px;
+    height: 100px;
+    border-radius: 3px;
+    border: 1px dotted #03a9f4;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
 }
