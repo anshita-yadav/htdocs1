@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./registration-form.css" />
+</head>
+
+<body>
+    <form action="https://nareshit.in/registration-form/">
+        <!--main background-->
+        <div class="main-container flex-content">
+            <!--main box-->
+            <div class="sub-box-container">
+                <!--heading-->
+                <h1 class="header-content">Registration Form</h1>
+
+                <div class="flex-content">
+                    <label>Name *</label>
+                    <input type="text" id="name" name="name" required class="input-width" />
+                </div>
+                <div class="flex-content">
+                    <label>Email *</label>
+                    <input type="email" id="e-mail" name="e-mail" required class="input-width" />
+                </div>
+                <div class="flex-content">
+                    <label>Contact No *</label>
+                    <input type="text" id="num" name="num" required class="input-width" />
+                </div>
+                <div class="flex-content">
+                    <label>Mode of Training *</label>
+                    <select name="mot" id="mot" required class="input-width">
+                        <option value="online">Online Training</option>
+                        <option value="classroom">Classroom Training</option>
+                        <option value="weekend">Weekend Training</option>
+                        <option value="project">Project Training</option>
+                    </select>
+                </div>
+                <div class="flex-content">
+                    <label>State</label>
+                    <input type="text" id="state" name="state" class="input-width" />
+                </div>
+                <div class="flex-content">
+                    <label>Course *</label>
+                    <select name="cour" id="cour" required class="input-width">
+                        <option>Select Course</option>
+                        <option>HTML</option>
+                        <option>C++</option>
+                        <option>JAVA SCRIPT</option>
+                        <option>REACT</option>
+                        <option>PYTHON</option>
+                        <option>DATA SCIENCE</option>
+                    </select>
+                </div>
+                <div class="flex-content">
+                    <label>Address *</label>
+                    <textarea class="input-width"></textarea>
+                </div>
+                <div>
+                    <button class="button-content">Submit</button>
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
