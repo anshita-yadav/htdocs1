@@ -59,6 +59,7 @@ a:hover{
     width: 50%;
     height: 55px;
     background: linear-gradient(black,grey);
+    color: whitesmoke;
     border: none;
     border-radius: 12px;
 }
