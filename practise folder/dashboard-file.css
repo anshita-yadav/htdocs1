@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    background-color: aqua;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    background-color: rgb(59, 59, 56);
+    height: 47px;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.nav-container {
+    background-color: rgb(31, 30, 32);
+    width: 30%;
+    font-size: 25px;
+
+}
+
+.sub-height {
+    height: 610px;
+}
+
+.right-container {
+    background: linear-gradient(black, grey);
+    width: 70%;
+}
+
+.right-box-content {
+    background-color: rgba(187, 180, 180, 0.342);
+    height: 400px;
+    width: 50%;
+    border-radius: 6px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-content {
+    justify-content: right;
+}
+
+.space-content {
+    justify-content: space-around;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.input-content {
+    width: 80%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: none;
+}
+
+.width-content {
+    width: 81%;
+}
+
+.but-content {
+    background: linear-gradient(white, black);
+    color: whitesmoke;
+}
+
+.top-space {
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.col-grey {
+    color: gray;
+}
+
+.left-space {
+    padding-left: 20px;
+}
+
+.left-content {
+    margin-left: 10px;
+}
+
+.anchor-content {
+    color: aliceblue;
+}
+
+.heading-content {
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 5px 2px rgb(148, 139, 138);
+}
