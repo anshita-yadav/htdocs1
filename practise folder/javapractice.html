@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!--internal script-->
+    <script>
+        document.write("Hello  <br/>");
+
+        document.write("This is a java script <br/>");
+
+        document.write(50 + 60);
+    </script>
+
+    <script src="externalscript.js"></script>
+</head>
+
+<body>
+    <!--JavaScript used to create interactive website-->
+    <!--inline script (event)
+        
+            syn:<tag event="js code" event ="js" events="js"/>
+        -->
+    <h1>Demo on inline script</h1>
+    <button onclick="alert('Hey This is inline script')">Click Me
+    </button>
+    <br />
+    <button ondblclick="alert('hey,This is double click event')">Click Button</button>
+    <br />
+
+    <!--internal script
+        (we can write internal script inside head/body)
+        -->
+
+    <script>
+        document.write("Hello World <br/>");
+
+        a = ["anshita"];
+        b = ["yadav"];
+        c = a + b;
+
+        document.write(c);
+
+        x = 10000;
+        y = 2600;
+        z = x * y;
+
+        document.write(z);
+        //function calling
+        demo();
+
+        demoA();
+        fruit();
+
+        num();
+
+        fun1();
+
+        sum();
+    </script>
+</body>
+
+</html>
