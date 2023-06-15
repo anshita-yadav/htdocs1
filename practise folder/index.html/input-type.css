@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+
+    background-color: lightblue;
+    height: 100vh;
+
+}
+
+.main-container input {
+    height: 30px;
+    width: 30%;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.main-container label {
+    margin-left: 10px;
+}
+
+.width-menu {
+    width: 10%;
+}
