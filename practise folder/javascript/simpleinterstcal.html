@@ -1,0 +1,38 @@
+<!-- Simlpe interest calculator -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="simpleinterstcal.js"></script>
+	<link rel="stylesheet" href="./simpleinterstcal.css" />
+</head>
+
+<body>
+	<div class="main-container flex-content">
+		<div class="div-content">
+			<h2 class="head-content margin-content">Interest Calculator</h2>
+			<div>
+				<label class="margin-content">Principal Amount</label> <br>
+				<input type="text" id="pamt" class="margin-content" /> <label>&#8377;</label>
+			</div>
+			<div>
+				<label class="margin-content">Rate of Interest</label> <bR>
+				<input type="text" id="roi" maxlength="3" class="margin-content"> <label>%</label>
+			</div>
+			<div>
+				<label class="margin-content ">Time</label> <bR>
+				<input type="text" id="time" maxlength="2" class="margin-content left-space"> <label
+					class="right-space">Year(s)</label>
+			</div>
+			<div class="margin-content">
+				<button onclick="getAmount()">get interest</button>
+			</div>
+			<div>
+				<output id="intAmt"></output> <bR>
+				<output id="totAmt"></output> <bR>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
