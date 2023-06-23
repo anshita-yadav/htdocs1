@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    background-color: rgb(240, 135, 97);
+    height: 100vh;
+}
+
+.cal-container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px red;
+}
+
+.screen {
+    background-color: orange;
+    width: 100%;
+    min-height: 100px;
+    text-align: right;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.cal-buttons {
+    background: white;
+    padding: 15px;
+}
+
+ul#buttons {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul#buttons li {
+    font-size: 24px;
+    color: blueviolet;
+    background: gainsboro;
+    width: 20%;
+    margin: 5px;
+    padding-top: 11px;
+    height: 50px;
+    border-radius: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+ul#buttons li:hover,
+ul#buttons li:visited {
+
+    background-color: #7777;
+    color: wheat;
+}
+
+ul#buttons li:active {
+
+    background-color: palevioletred;
+}
+
+li#equals {
+    width: 100%;
+    border-radius: 10px;
+}

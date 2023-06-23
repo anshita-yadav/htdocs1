@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    background: linear-gradient(rgb(37, 37, 37), rgb(173, 253, 173));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div input {
+    width: 30%;
+    height: 35px;
+    border: 2px solid rgb(102, 158, 102);
+    outline: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+.center-content {
+    text-align: center;
+}
+
+.heading-content {
+    font-size: 28px;
+    color: rgb(166, 250, 166);
+    text-shadow: 1px 2px 5px rgb(90, 228, 120);
+    text-decoration: underline;
+}

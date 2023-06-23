@@ -100,8 +100,39 @@ for (i = 55; i >= 40; i--) {
     console.log(i + " ");
 }
 
+for (i = 1; i <= 10; i++) {
+
+    console.log("Hello world");
+
+}
+//debugger
+
+for (i = 0; i <= 10; i++) {
+
+    console.log("THIS IS FOR LOOP");
+}
+let a = ["anshita", "ayushi", "ankita", "ayu"];
 
 
+for (i = 1; i <= 5; i++) {
+
+    console.log(a);
+}
+
+let x = ["HTML", "CSS", "JAVASCRIPT", "REACT", "PYTHON"];
+
+for (i = 1; i <= 8; ++i) {
+
+    console.log(x);
+}
+
+
+let y = ["vaishu", 20, "indian"]
+
+for (i = 0; i <= 3; i++) {
+
+    console.log(y);
+}
 
 
 
