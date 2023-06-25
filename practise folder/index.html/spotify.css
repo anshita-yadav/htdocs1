@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    background-color: whitesmoke;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.sub-container {
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    width: 60%;
+    height: 90vh;
+    margin: auto;
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head-button {
+    width: 50%;
+
+}
+
+.main-container input {
+    height: 37px;
+    outline: none;
+}
+
+.margin-content {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.radius-content {
+    border-radius: 20px;
+}
+
+.col-blue {
+    background-color: blue;
+}
+
+.col-grey {
+    color: grey;
+}
+
+.col-black {
+    background-color: black;
+}
+
+.col-white {
+    color: white;
+    border: none;
+}
+
+.but-content {
+    background-color: green;
+    height: 25px;
+    width: 90px;
+}
+
+.space-content {
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+input:hover {
+    background-color: yellow;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(0, 225, 255);
+    height: 30px;
+}
+
+.top-content {
+    position: relative;
+    bottom: 12px;
+}
+
+.font-content {
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.line {
+    width: 50%;
+    border: 1px dotted gainsboro;
+    margin: auto;
+}
+
+.bottom-content {
+    margin-bottom: 5px;
+}
+
+.left-space {
+    margin-left: 8px;
+}

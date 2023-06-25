@@ -99,6 +99,58 @@ for (let i = 0; i < personNames.length; i++) {
     document.write("my name is [" + i + "] is :" + personNames[i] + "<br>");
 }
 
+const y = [[10, 20, 3], ["html", "css", "js", "react"], [true]];
+console.log(y.length);
+console.log(y[0]);
+console.log(y[1]);
+console.log(y[2]);
+console.log(y);
+
+const i = ["HTML", 30, "good"];
+console.log(i);
+
+i[1] = 40;
+console.log(i);
+
+const j = ["anshit yadav", 20, "indian"];
+
+console.log(j);
+
+const sub = ["english", "hindi", "gk", "social", "maths"];
+
+console.log(sub);
+
+const lang = new Array("hindi", "english", "marathi", "telgu");
+
+for (let i = 0; i < lang.length; i++) {
+    console.log("my language is [" + i + "] is :" + lang[i]);
+}
+
+const country = new Array("india", "US", "america", "malasiya", "Uk");
+
+for (let i = 0; i < country.length; i++) {
+    console.log("This is[" + i + "] is :" + country[i]);
+}
+
+const city = new Array("hyderabad", "delhi", "mumbai", "pune", "banglore", "kolkata");
+
+for (let i = 0; i < city.length; i++) {
+    console.log("This is cleanest city  [" + i + "] is :" + city[i]);
+}
+
+const mem = new Array(10 + 20, 50 + 60, 65 * 2, 55 / 3);
+
+for (let i = 0; i < mem.length; i++) {
+    
+    console.log("ans [" + i + "] is :" + mem[i]);
+}
+
+const b = new Array("Hello");
+
+console.log(b + "vaishu");
+
+
+
 
 
 
