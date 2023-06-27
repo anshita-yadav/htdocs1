@@ -1,0 +1,78 @@
+<!--  Student Marks report 
+Avg			Grade
+90-100	A+
+80-89		A
+70-79		B+
+60-69		B
+50-59		C
+40-49		D
+0-39		Fail
+Note:   min marks 40
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="marks-report.js"></script>
+    <link rel="stylesheet" href="./marks-report.css" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="main-container flex-content">
+        <div class="center-content font-content">
+            <h2> Student Marks Report</h2>
+        </div>
+        <div class="sub-content">
+            <div class="center-content">
+                <h2>Enter Info & Marks</h2>
+            </div>
+            <hr>
+            <div class="margin-content">
+                <label>RollNo</label>
+                <input type="text" id="rno">
+            </div>
+            <div class="margin-content">
+                <label>Name</label>
+                <input type="text" id="sna">
+
+            </div>
+            <div class="margin-content">
+                <label>Marks in:</label>
+
+            </div>
+            <div class="margin-content">
+                <label>HTML</label>
+                <input type="text" id="html" maxlength="5">
+            </div>
+            <div class="margin-content">
+                <label>CSS</label>
+                <input type="text" id="css" maxlength="5">
+
+            </div>
+
+            <div class="margin-content">
+                <label>JavaScript</label>
+                <input type="text" id="js" maxlength="5" class="wd">
+            </div>
+            <div class="margin-content">
+                <label>BootStrap</label>
+                <input type="text" id="bs" maxlength="5">
+            </div>
+
+            <div class="center-content">
+                <label colspan="2"> <button onclick="getResult()" class="button-content">get result</button> </label>
+            </div>
+            <div class="right-content">
+                <div colspan="2">
+                    <output id="total"></output> <bR>
+                    <output id="average"></output> <bR>
+                    <output id="grade"></output> <bR>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
