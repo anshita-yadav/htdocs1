@@ -37,7 +37,7 @@ function div(){
 }
 
 div();
-
+/*
 function greet(name) {//(parameter)
     console.log("Hello " + name + ":)");
 }
@@ -56,12 +56,15 @@ function ag(age){
 let age =prompt("Enter Your age");
 
 ag(age);
+*/
 
 //function expression
 /* syn
 function (parameter){
     body
-}*/
+}
+
+calling fun*/
 
 const math = {
     factit: function factorial(n) {
@@ -100,3 +103,36 @@ function addNames(a,b,c){
 
 console.log(addNames("anshita", "ayu","ankita"));
 
+const sum=function(a,b){//expression function
+    return a+b;
+}
+
+console.log(sum(2,3));
+
+const res =function(x,y){
+    return x+y;
+}
+
+console.log(res(40,50));
+
+
+const num=function(a,b,c){
+
+    return (a+b+c)
+}
+
+console.log(num("html","css","js"));
+
+const fun=function (a){
+    return (a);
+}
+
+console.log(fun("hello world"));
+
+const st=function(a){
+    return (a);
+}
+
+console.log("This is expression function");
+
+//arrow function
