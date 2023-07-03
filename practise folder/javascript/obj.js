@@ -107,3 +107,64 @@ document.write(`${student.rno}
  ${student.name} 
  ${student.total}<br>`);
 document.write(`${student.getResult()}<br>`);
+
+
+//array of object 
+var products = new Array();  //for storing of products
+
+//for storing product details
+function Product(name, inventory, unit_price) //constructor
+{
+    this.name = name;			//init to object
+    this.inventory = inventory;
+    this.unit_price = unit_price;
+}
+
+function addProduct() {
+
+    products.push(new Product(pn.value, inv.value, up.value));		//adding product to collection
+    pn.value = "";
+    inv.value = "";
+    up.value = "";		//clear all values
+    pn.focus();	//placing cursor 
+
+}
+
+function generateBill() {
+    let slno = 1, prodAmt = 0, billAmt = 0, cgst, sgst, finalAmt;
+
+    for (let p of products) //extracting 1-by-1 product
+    {
+        prodAmt = p.inventory * p.unit_price;
+        document.write(`${slno} '<br>' ${p.name}  ${p.inventory}   ${p.unit_price} ; &#8377;${prodAmt}<br>`);
+        billAmt += prodAmt;
+        slno++;
+    }
+    sgst = billAmt * 18 / 100;
+    cgst = billAmt * 12 / 100;
+    finalAmt = billAmt + sgst + cgst;
+    document.write(`Bill Amount : &#8377;${billAmt} <br>`);
+    document.write(`SGST	: &#8377;${sgst} <br>`);
+    document.write(`CGST		: &#8377;${cgst} <br>`);
+    document.write(`Total Bill Amount : &#8377;${finalAmt} <br>`);
+}
+
+const myArr = [//array of object
+    {
+        studenName: "vansh",
+        studenClass: 1,
+        studenSection: "a"
+    },
+    {
+        studenName: "aarush",
+        studenClass: 2,
+        studenSection: "b"
+    }
+];
+
+console.log(myArr[1]);
+
+console.log(myArr[0]);
+
+
+
