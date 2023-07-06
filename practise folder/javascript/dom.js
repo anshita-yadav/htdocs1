@@ -26,14 +26,14 @@ Syn: -	refvar = document.querySelector("selector")
 Syn: -	refvar = document.querySelectorAll("selector")
 -->*/
 
-//paired tag
-const h1 = document.getElementById("head1");
-document.write(`${h1.innerText}<br>`);
-//h1.innerText=``;		deletion
+//demo on dom methods(attribute)
 
-//un-paired tag
-const tb = document.getElementById("tb1");
-document.write(`${tb.value}<br>`);
-//tb.value=1234;		updation
-//tb.value+=`apples`;    appending
-tb.value = ``;		// deletion
+const hob=document.getElementById("heading");
+document.write(hob);
+
+const rob=document.getElementsByClassName("color");
+document.write(rob);
+
+const lob=document.getElementsByTagName("label");
+document.write(lob);
+
