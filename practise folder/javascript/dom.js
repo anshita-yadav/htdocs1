@@ -28,12 +28,5 @@ Syn: -	refvar = document.querySelectorAll("selector")
 
 //demo on dom methods(attribute)
 
-const hob=document.getElementById("heading");
-document.write(hob);
 
-const rob=document.getElementsByClassName("color");
-document.write(rob);
-
-const lob=document.getElementsByTagName("label");
-document.write(lob);
 

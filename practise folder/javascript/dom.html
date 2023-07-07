@@ -4,31 +4,84 @@
 <head>
     <script src="dom.js"></script>
     <style>
-        #i {
+        span {
             color: red;
-        }
-
-        .cls {
-            color: blue;
         }
     </style>
 </head>
 
 <body>
-    <h3>demo on document methods</h3>
-    <h1 id="heading">Hello World</h1>
+    <h2>Registration Form</h2>
+    <form>
+        <label>Fullname</label> <bR>
+        <input type="text" id="fullName" name="fullName" />
+        <span id="errfna"></span>
+        <br>
+        <label>Contact number</label> <br>
+        <input type="text" id="phone" name="phone" maxlength="10" />
+        <span id="errph"></span>
+        <br>
+        <input type="submit" name="sb" />
+    </form>
+    <script>
+        const fna = document.querySelector("#fullName");
+        fna.onblur = function () {
+            console.log("fna blur");
+            let name = fna.value.toLowerCase();
+            let i, ch, flag = false;
+            for (i = 0; i < name.length; i++) {
+                ch = name[i];
+                if (!(ch >= 'a' && ch <= 'z')) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag === true) {
+                document.querySelector("#errfna").innerText = "plz enter valid name";
+                fna.style.border = "1px solid red";
+            }
+            else {
+                document.querySelector("#errfna").innerText = "";
+                fna.style.border = "1px solid gray";
+            }
+        }
+        fna.onfocus = function () {
+            console.log("fna focus");
+        }
 
-    <input type="radio" id="r1" name="color" /> <label>Red</label> &nbsp;
-    <input type="radio" id="r2" name="color" /> <label>Green</label> &nbsp;
-    <input type="radio" id="r3" name="color" /> <label>Blue</label>
-    <hr>
+        //chekcing phone number
+        const phone = document.querySelector("#phone");
+        phone.onblur = function () {
+            console.log("phone blur");
+            let ph = phone.value;
+            let i, ch, flag = false;
+            for (i = 0; i < ph.length; i++) {
+                ch = ph[i];
+                if (!(ch >= '0' && ch <= '9')) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag === true) {
+                document.querySelector("#errph").innerText = "plz enter valid phone number";
+                phone.style.border = "1px solid red";
+            }
+            else {
+                document.querySelector("#errph").innerText = "";
+                phone.style.border = "1px solid gray";
+            }
 
-    
-    <label>Red</label> <br>
-    <label>Green</label> <br>
-    <label>Blue</label> <br>
+        }
+        phone.onfocus = function () {
+            console.log("phone focus");
+        }
 
-    
+
+
+    </script>
+
+
+
 
 </body>
 
