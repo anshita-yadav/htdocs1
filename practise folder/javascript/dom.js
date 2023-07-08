@@ -26,7 +26,6 @@ Syn: -	refvar = document.querySelector("selector")
 Syn: -	refvar = document.querySelectorAll("selector")
 -->*/
 
-//demo on dom methods(attribute)
-
-
+//demo on window object
+alert("hello");
 

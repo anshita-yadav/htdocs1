@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./simpledemo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="main-box-container">
+            <div class="heading-content">
+                <h1 id="title">Sign Up</h1>
+            </div>
+            <form>
+                <div class="input-group">
+                    <div class="input-filed" id="nameFiled">
+                        <i class="fa-solid fa-bars"></i>
+                        <input type="text" placeholder="Name" />
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-filed">
+                        <i class="fa-solid fa-bars"></i>
+                        <input type="email" placeholder="Email" />
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-filed">
+                        <i class="fa-solid fa-bars"></i>
+                        <input type="password" placeholder="Password" />
+
+                    </div>
+                </div>
+                <p class="p-content">Lost Password <a href="#" class="a-content">Click Here</a></p>
+                <div>
+                    <button class="btn-filed" id="signupBtn">Sign Up</button>
+                    <button class="btn-filed but-content" id="signinBtn">Sign In</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+    <script>
+        let signupBtn = document.getElementById("signupBtn");
+        let signinBtn = document.getElementById("signinBtn");
+        let nameFiled = document.getElementById("nameFiled");
+        let title = document.getElementById("title");
+
+
+        signinBtn.onclick = function () {
+            nameFiled.style.maxHeight = "0";
+
+            title.innerHTML = 'sign In';
+            signupbtn.classList.add("disable");
+            signinbtn.classList.remove("disable");
+        }
+    </script>
+
+</body>
+
+
+</html>
