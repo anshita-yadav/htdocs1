@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    background-color: rgb(241, 233, 233);
+    color: gainsboro;
+}
+
+.left-content{
+    width: 20%;
+    background-color: rgb(61, 43, 226);
+}
+
+.height-content{
+    height: 100vh;
+}
+
+
+.flex-content{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-space{
+    justify-content: space-between;
+}
+
+th,td{
+    border: 1px solid red;
+    
+}
+.right-content{
+    width: 80%;
+}
