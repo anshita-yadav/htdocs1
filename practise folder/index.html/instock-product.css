@@ -70,7 +70,7 @@ td {
 
 .head-nav {
     background-color: white;
-    width: 30%;
+    width: 20%;
     height: 40px;
 }
 
@@ -89,15 +89,24 @@ td {
     font-size: 20px;
 }
 
-.col-black{
+.col-black {
     color: black;
 }
 
-.action-icon{
+.action-icon {
     background-color: red;
-    
+
 }
 
-.margin-right{
+.margin-right {
     margin-right: 25px;
+}
+
+.icon-content{
+    position: relative;
+    bottom: 2px;
+}
+
+.width-content{
+    width: 30%;
 }
