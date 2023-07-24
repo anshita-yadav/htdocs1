@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-content {
+  background-color: rgb(202, 198, 198);
+  height: 97vh;
+}
