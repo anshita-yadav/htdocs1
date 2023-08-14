@@ -5,7 +5,7 @@ import { Register } from "./components/Register";
 const App = () => {
   return (
     <>
-      <Login />
+      <Register/>
     </>
   );
 };
