@@ -1,13 +1,16 @@
 import React from "react";
-import { Login } from "./components/Login";
-import { Register } from "./components/Register";
+ import { Login } from "./components/Login";
+ import {Register} from "./components/Register";
+ import {Netflixpage} from "./components/Netflixpage";
+const App = ()=>{
 
-const App = () => {
-  return (
+
+  return(
     <>
-      <Register/>
+    <Netflixpage/>
+    
     </>
-  );
-};
+  )
+}
 
-export { App };
+export { App }

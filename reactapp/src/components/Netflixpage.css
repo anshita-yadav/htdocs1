@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#body {
+  background-image: url("/public/netflix-banner.jpg");
+  height: 100vh;
+}
+
+#shade {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+}
+
+.head-space {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.netflix-size {
+  font-size: 52px;
+  font-weight: bold;
+  color: red;
+}
+
+.col-white {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  background-color: rgba(19, 3, 3, 0.61);
+  border: 1px solid gray;
+  width: 30%;
+  border-radius: 0;
+  padding-left: 15px;
+}
+
+.but {
+  background-color: red;
+  width: 15%;
+  border: none;
+  margin-left: 10px;
+}
+
+.input-height {
+  height: 60px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.margin-top {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.selector {
+  background-color: rgba(19, 3, 3, 0.651);
+  width: 150px;
+}
+
+.sign-text {
+  width: 80px;
+}
+
+.height {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+}
