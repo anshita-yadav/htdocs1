@@ -29,9 +29,9 @@ const Netflixpage = () => {
           <main className="col-white">
             <div>
               <h1>Unlimited movies, TV shows and more</h1>
-              <p className="margin-top">Watch anywhere. Cancel anytime.</p>
+              <p className="margin-top para">Watch anywhere. Cancel anytime.</p>
             </div>
-            <p className="margin-top">
+            <p className="margin-top para">
               Ready to watch? Enter your email to create or restart your
               membership.
             </p>

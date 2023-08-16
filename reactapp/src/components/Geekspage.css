@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.font-family {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: green;
+  color: white;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-style {
+  display: flex;
+}
+
+.nav-box {
+  width: 50%;
+  height: 300px;
+  border: 2px solid gray;
+  margin: auto;
+  padding-left: 25px;
+  margin-top: 30px;
+}
+
+.main-center {
+  text-align: center;
+}
+
+.input-style {
+  padding-left: none;
+  background-color: rgba(255, 255, 255, 0.897);
+  border: 1px solid gainsboro;
+  width: 92%;
+  border-radius: 8px;
+}
+
+.log-font {
+  font-size: 35px;
+}
+
+.geek-font {
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.col-green {
+  color: green;
+  font-size: 30px;
+}
+
+.left-margin {
+  margin-left: 20px;
+}
+
+.button-container {
+  background-color: rgba(0, 128, 0, 0.897);
+  width: 20%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  color: whitesmoke;
+}
+
+.top-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.col-grey {
+  color: gray;
+}
