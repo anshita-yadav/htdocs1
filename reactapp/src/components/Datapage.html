@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-        function SubmitClick(){
-            var username = document.getElementById("UserName").value;
-            sessionStorage.setItem("uname", username);  
-            location.href ="welcome.html";
-        }
+      function SubmitClick() {
+        var username = document.getElementById("UserName").value;
+        sessionStorage.setItem("uname", username);
+        location.href = "welcome.html";
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Home</h2>
-    <input type="text" id="UserName"> <button onclick="SubmitClick()">Submit</button>
-</body>
+    <input type="text" id="UserName" />
+    <button onclick="SubmitClick()">Submit</button>
+  </body>
 </html>
 
 welcome.html
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-        function bodyload(){
-            document.querySelector("div").innerHTML = "Hello ! " + sessionStorage.getItem("uname");
-        }
+      function bodyload() {
+        document.querySelector("div").innerHTML =
+          "Hello ! " + sessionStorage.getItem("uname");
+      }
     </script>
-</head>
-<body onload="bodyload()">
+  </head>
+  <body onload="bodyload()">
     <h2>Welcome</h2>
     <div></div>
-</body>
+  </body>
 </html>

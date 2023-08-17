@@ -1,11 +1,9 @@
 import React from "react";
 
-const Datapage =() =>{
-    return(
-        <>
+const Datapage = () => {
+  return <>
+  
+  </>;
+};
 
-        </>
-    )
-}
-
-export {Datapage};
+export { Datapage };
