@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.data-content {
+  background: linear-gradient(grey, black);
+  height: 100vh;
+}
+
+.data-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.data-start {
+  font-size: 20px;
+}
+
+.data-top {
+  margin-top: 5px;
+}
+
+.data-width {
+  width: 47%;
+}
+
+.data-type {
+  width: 100%;
+}
+
+.data-col {
+  color: white;
+}
+
+.data-but {
+  width: 32%;
+  margin-left: 10px;
+  height: 42px;
+  border: 2px solid rgba(107, 107, 250, 0.555);
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.data-font {
+  font-size: 60px;
+}
+
+.data-margin {
+  margin-left: 10px;
+}
+
+.data-size {
+  font-size: 30px;
+}
+
+.data-head {
+  color: darkblue;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.data-grey {
+  color: grey;
+}
