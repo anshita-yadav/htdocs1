@@ -31,11 +31,11 @@ const Register = () => {
           <div>
             <div>
               <label>Email Add</label>
-              <input type="email" />
+              <input type="email" className="input-reg" />
             </div>
             <div>
               <label>Password</label>
-              <input type="password" />
+              <input type="password" className="input-reg" />
             </div>
             <div>
               <button className="but-content"> Submit</button>

@@ -11,7 +11,7 @@ const Login = () => {
           <div className="box-content">
             <div className="margin-content">
               <label>Name</label>
-              <input type="text" className="flex-content" />
+              <input type="text" className="flex-content input" />
             </div>
             <div className="margin-content">
               <label>Surname</label>
@@ -19,7 +19,7 @@ const Login = () => {
                 type="text"
                 id="sur"
                 name="sunm"
-                className="flex-content"
+                className="flex-content input"
               />
             </div>
 
@@ -29,7 +29,7 @@ const Login = () => {
                 type="password"
                 id="pass"
                 name="pass"
-                className="flex-content"
+                className="flex-content input"
               />
             </div>
 
@@ -39,7 +39,7 @@ const Login = () => {
                 type="email"
                 id="mail"
                 name="mail"
-                className="flex-content"
+                className="flex-content input"
               />
             </div>
 
@@ -47,7 +47,7 @@ const Login = () => {
               <input
                 type="submit"
                 value="Login"
-                className="but-content flex-content"
+                className="but-content flex-content input"
               />
             </div>
           </div>

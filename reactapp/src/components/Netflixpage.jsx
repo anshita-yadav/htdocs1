@@ -28,7 +28,7 @@ const Netflixpage = () => {
           </header>
           <main className="col-white">
             <div>
-              <h1>Unlimited movies, TV shows and more</h1>
+              <h1 className="h1-net">Unlimited movies, TV shows and more</h1>
               <p className="margin-top para">Watch anywhere. Cancel anytime.</p>
             </div>
             <p className="margin-top para">
@@ -41,7 +41,7 @@ const Netflixpage = () => {
             <input
               type="email"
               placeholder="Enter Email address"
-              className="input-text input-height"
+              className="input-text input-height input-net"
             />
             <button className="but input-height">
               Get Started <span className=""></span>

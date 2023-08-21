@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.law-content {
+  background-color: black;
+  color: white;
+  padding-left: 35px;
+  height: 100vh;
+}
+.law-box {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+}
+
+.law-flex {
+  display: flex;
+}
+
+.law-para {
+  background-color: #1a1a1a;
+  height: 350px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.h1-law {
+  font-size: 80px;
+  font-weight: bold;
+  color: burlywood;
+  margin-bottom: 25px;
+}
+
+.law-margin {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.head-law {
+  font-size: 60px;
+  color: whitesmoke;
+}
+
+.law-para:hover {
+  background-color: rgba(0, 0, 0, 0.185);
+}
