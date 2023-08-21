@@ -9,7 +9,7 @@ const Lawtext = () => {
         <main className="law-box">
           <h1 className="head-law law-margin">Our Way</h1>
           <p className="law-margin">
-            Our team is committed to making a positive impact for our
+            Our team is committed to making a positive impact for our,
             clients,their users,and our community.
           </p>
           <div className="law-flex">
