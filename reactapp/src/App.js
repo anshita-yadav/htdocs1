@@ -6,13 +6,15 @@ import { Geekspage } from "./components/Geekspage";
 import { Datapage } from "./components/Datapage";
 import { Lawtext } from "./components/Lawtext";
 import { Mobirisepage } from "./components/Mobirisepage";
+import { StyleBinding } from "./components/Stylebinding";
+import { ClassBinding } from "./components/Classbinding";
 
 const App = ()=>{
 
 
   return(
     <>
-    <Mobirisepage/>
+    <ClassBinding/>
     
     </>
   )
