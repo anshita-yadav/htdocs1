@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cont-bg {
+  background-color: rgba(113, 0, 128, 0.521);
+  color: white;
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cont-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cont-line {
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid whitesmoke;
+  width: 380px;
+  padding-top: 10px;
+  color: white;
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.877);
+  font-size: 15px;
+}
+
+.cont-button {
+  background-color: rgba(165, 42, 42, 0.774);
+  color: rgba(245, 245, 245, 0.89);
+  font-size: 18px;
+  width: 50%;
+  height: 50px;
+  border-radius: 12px;
+  margin-top: 40px;
+  border: none;
+}
+
+.cont-title {
+  font-size: 50px;
+  text-shadow: 2px 5px 5px purple;
+  border: 3px dotted rgba(128, 0, 128, 0.822);
+  padding: 15px;
+}
+
+.cont-head {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.cont-col {
+  color: rgba(128, 0, 128, 0.527);
+}
