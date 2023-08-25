@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.t-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.t-nav {
+  background-color: rgb(243, 74, 13);
+  height: 60px;
+  color: whitesmoke;
+}
+.t-margin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.t-main {
+  background-color: rgba(245, 192, 172, 0.226);
+  height: 80px;
+}
+
+.t-width {
+  width: 95%;
+  margin-left: 30px;
+}
+
+.t-button {
+  border-radius: 12px;
+  padding: 10px;
+  width: 10%;
+  border: 1px solid;
+  background-color: rgba(255, 255, 255, 0.178);
+}
+.t-col {
+  color: gray;
+  font-size: 20px;
+}
+
+.t-font {
+  font-size: 60px;
+}
+
+.t-orange {
+  color: orangered;
+}
+
+.t-days {
+  margin-left: 15px;
+  position: relative;
+}
+
+.t-but {
+  background-color: orangered;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.t-right {
+  margin-right: 20px;
+}

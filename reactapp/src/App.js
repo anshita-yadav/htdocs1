@@ -9,13 +9,14 @@ import { Mobirisepage } from "./components/Mobirisepage";
 import { StyleBinding } from "./components/Stylebinding";
 import { ClassBinding } from "./components/Classbinding";
 import { Contactform } from "./components/Contactform";
+import { Travelpage } from "./components/Travelpage";
 
 const App = ()=>{
 
 
   return(
     <>
-    <Contactform/>
+    <Travelpage/>
     
     </>
   )
