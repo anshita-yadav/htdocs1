@@ -1,4 +1,4 @@
-import React from "react";
+3import React from "react";
 
 import "./Travelpage.css";
 
