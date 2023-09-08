@@ -10,15 +10,16 @@ import { StyleBinding } from "./components/Stylebinding";
 import { ClassBinding } from "./components/Classbinding";
 import { Contactform } from "./components/Contactform";
 import { Travelpage } from "./components/Travelpage";
-import { Flowblog } from "./components/Flowblog";
 import { Eventbinding } from "./components/Databinding/Eventbinding";
+import { Logistics } from "./components/Logistics";
+
 
 const App = ()=>{
 
 
   return(
     <>
-    <Eventbinding/>
+    <Logistics/>
     
     </>
   )

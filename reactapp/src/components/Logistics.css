@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.log-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.log-bg{
+    background-color: darkcyan;
+    height: 60vh;
+}
