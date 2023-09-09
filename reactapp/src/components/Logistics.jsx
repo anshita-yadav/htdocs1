@@ -35,25 +35,25 @@ const Logistics = () => {
         <div>
           <button>Sig up</button>
           <button>
-            <a href="#">Learn more</a>
+            <a>Learn </a>
           </button>
         </div>
       </div>
       <div className="log-flex">
-      <div>
-        <h1>Contacts</h1>
-        <h5>123-456-78901</h5>
-        <h3>London, 51 Street, 43</h3>
-        <h3>name@site.com</h3>
-      </div>
-      <div>
-        <h1>Newsletter</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-          quisquam hic minima officiis labore. <p>Autem iste maiores, impedit
-          quasi, incidunt voluptatibus.</p>
-        </p>
-      </div>
+        <div>
+          <h1>Contacts</h1>
+          <h5>123-456-78901</h5>
+          <h3>London, 51 Street, 43</h3>
+          <h3>name@site.com</h3>
+        </div>
+        <div>
+          <h1>Newsletter</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+            <p>Debitis quisquam hic minima officiis labore.</p>{" "}
+            <p>Autem iste maiores, impedit quasi, incidunt voluptatibus.</p>
+          </p>
+        </div>
       </div>
     </>
   );
