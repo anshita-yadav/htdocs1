@@ -1,13 +1,51 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.log-flex{
-    display: flex;
-    justify-content: space-between;
+.log-flex {
+  display: flex;
+  justify-content: space-between;
 }
-.log-bg{
-    background-color: darkcyan;
-    height: 60vh;
+.log-bg {
+  background-color: darkcyan;
+  height: 60vh;
+}
+
+.log-font {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.log-para {
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 10px;
+}
+
+.log-but {
+  width: 20%;
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.log-head {
+  font-size: 25px;
+  color: gray;
+  
+}
+
+.log-margin {
+  margin-left: 10px;
+}
+
+.log-top {
+  margin-top: 15px;
 }

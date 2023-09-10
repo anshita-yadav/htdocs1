@@ -5,27 +5,21 @@ import "./Logistics.css";
 const Logistics = () => {
   return (
     <>
-      <div className="log-flex">
+      <div className="log-flex log-head log-top">
         <div>
-          <h1>
-            <a>Home</a>
-          </h1>
+          <label>Logistics</label>
         </div>
         <div>
-          <select>
-            <option>Live Demo</option>
-          </select>
-
-          <select>
-            <option>Demo Block</option>
-          </select>
+          <label className="log-margin">About</label>
+          <label className="log-margin">Page</label>
+          <label className="log-margin">Contact</label>
         </div>
       </div>
-      <div className="log-bg">
-        <div>
+      <div className="log-bg log-top">
+        <div className="log-font">
           <h1>Innovation and Discovery</h1>
         </div>
-        <div>
+        <div className="log-para">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl
             elit, varius ut magna vel, tincidunt iaculis sem.{" "}
@@ -33,13 +27,10 @@ const Logistics = () => {
           </p>
         </div>
         <div>
-          <button>Sig up</button>
-          <button>
-            <a>Learn </a>
-          </button>
+          <button className="log-but">Sig up</button>
         </div>
       </div>
-      <div className="log-flex">
+      <div className="log-flex log-top">
         <div>
           <h1>Contacts</h1>
           <h5>123-456-78901</h5>
