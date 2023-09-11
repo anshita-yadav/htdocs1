@@ -38,6 +38,7 @@ const Logistics = () => {
           <h3>name@site.com</h3>
         </div>
         <div>
+
           <h1>Newsletter</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}

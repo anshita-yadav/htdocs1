@@ -12,6 +12,7 @@ import { Contactform } from "./components/Contactform";
 import { Travelpage } from "./components/Travelpage";
 import { Eventbinding } from "./components/Databinding/Eventbinding";
 import { Logistics } from "./components/Logistics";
+import {Events} from "./components/Databinding/Events";
 
 
 const App = ()=>{
@@ -19,7 +20,7 @@ const App = ()=>{
 
   return(
     <>
-    <Logistics/>
+    <Events/>
     
     </>
   )
