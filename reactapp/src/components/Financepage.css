@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.f-bg {
+  background-color: aquamarine;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f-box {
+  background-color: rgba(65, 236, 179, 0.733);
+  color: white;
+  text-align: center;
+  height: 200px;
+  width: 25%;
+  border-radius: 12px;
+}
+.f-margin {
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.f-space {
+  margin-right: 10px;
+}
+
+.f-col {
+  color: rgba(255, 255, 255, 0.945);
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 10px;
+}
