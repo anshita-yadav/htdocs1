@@ -14,6 +14,7 @@ import { Eventbinding } from "./components/Databinding/Eventbinding";
 import { Logistics } from "./components/Logistics";
 import {Events} from "./components/Databinding/Events";
 import {Financepage} from "./components/Financepage";
+import { Loreumpage } from "./components/Loreumpage";
 
 
 const App = ()=>{
@@ -21,7 +22,7 @@ const App = ()=>{
 
   return(
     <>
-    <Financepage/>
+    <Loreumpage/>
     
     </>
   )

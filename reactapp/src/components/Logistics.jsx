@@ -25,6 +25,7 @@ const Logistics = () => {
             elit, varius ut magna vel, tincidunt iaculis sem.{" "}
             <p>Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </p>
+
         </div>
         <div>
           <button className="log-but">Sig up</button>
@@ -52,3 +53,4 @@ const Logistics = () => {
 };
 
 export { Logistics };
+

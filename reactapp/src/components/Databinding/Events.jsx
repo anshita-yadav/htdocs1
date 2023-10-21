@@ -1,10 +1,10 @@
-
 import { useState } from "react";
 
 const  Events=() =>{
   const [error, setError] = useState("");
   const [errorClass, setErrorClass] = useState("");
   const [pwdError, setPwdError] = useState("");
+
 
   function VerifyUserName(e) {
     fetch("data/users.json")
@@ -51,3 +51,4 @@ const  Events=() =>{
 }
 
 export{Events};
+
